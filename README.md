@@ -1,9 +1,9 @@
-# :zap: React, Mobx 사용 예제
+# :zap: React, Mobx 숫자 증가, 감소 예제
 :octocat: https://light9639.github.io/React-Mobx/
 
+![light9639 github io_React-Mobx_](https://user-images.githubusercontent.com/95972251/202852375-12836973-e7e6-45ce-a77b-45b76936196e.png)
 
-
-:sparkles: mbox를 이용하여 만든 숫자 증가, 감소 예제입니다. :sparkles:
+:sparkles: Mbox를 이용하여 만든 숫자 증가, 감소 예제입니다. :sparkles:
 ## :tada: React 생성
 - React 생성
 ```bash
