@@ -24,7 +24,8 @@ yarn add mobx mobx-react
 
 ## ✒️ useStore.ts, App.tsx, Counter.tsx, counter.ts 작성
 ### :zap: useStore.ts
-```bash
+- `counter.tsx`를 가져온 후 `useStore` 함수에 담아 사용할 수 있게끔 한다.
+```typescript
 import { counter } from './stores/counter'
 
 const useStore = () => {
@@ -35,7 +36,8 @@ export default useStore
 ```
 
 ### :zap: App.tsx
-```bash
+- `Counter.tsx`를 `import` 하여 하단에 배치하고 이미지 변경, 및 스타일링을 해준다.
+```typescript
 import React from 'react'
 import Counter from './components/Counter'
 import './Style.css'
@@ -72,7 +74,8 @@ export const App = () => {
 ```
 
 ### :zap: Counter.tsx
-```bash
+- `counter.ts`에서 가져온 함수와 데이터를 바탕으로 함수를 만들어 증가, 감소 함수를 만든다.
+```typescript
 import React from 'react'
 import { useObserver } from 'mobx-react'
 import useStore from '../useStore'
@@ -101,7 +104,8 @@ export default Counter
 ```
 
 ### :zap: counter.ts
-```bash
+- `observable`를 `import` 한 뒤 사용할 함수들을 작성한다.
+```typescript
 import { observable } from 'mobx'
 
 const counter = observable({
