@@ -1,4 +1,4 @@
-# :zap: React, Mobx 숫자 증가, 감소 예제
+# 📋 React, Mobx 숫자 증가, 감소 예제
 :octocat: https://light9639.github.io/React-Mobx/
 
 ![light9639 github io_React-Mobx_](https://user-images.githubusercontent.com/95972251/202852375-12836973-e7e6-45ce-a77b-45b76936196e.png)
